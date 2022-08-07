@@ -2,23 +2,23 @@ package In_lecture;
 
 public class Car {
 
-		
+	
+		String type;
 		String model;
 		String color;
-		int year;
-	public static void main(String[] args) {
+		public static void main(String[] args) {
+			
+			Car cars = new Car();
+			cars.type = "SUV";
+			cars.model = "Range rover";
+			cars.color = "White";
+			System.out.println("Type: " + cars.type);
+			System.out.println("Model: " + cars.model);
+			System.out.println("Color: " + cars.color);
+			
 
-		
-		method();
-	}
-	static void method() {
-		
-		Car obj = new Car();
-		
-		System.out.println(obj.model);
-		System.out.println(obj.color);
-		System.out.println(obj.year);
-	}
-	
+		}
 
-}
+	}
+
+
